@@ -56,7 +56,7 @@ ggplot(mpg, aes(x = cty)) +
   geom_bar() + 
   labs(x = "City Mileage")
 
-#check
+#checked
 ?ggplot
 
 plot1 <- ggplot(mpg, aes(x = cty, y = hwy)) + 
