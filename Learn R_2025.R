@@ -59,7 +59,7 @@ ggplot(mpg, aes(x = cty)) +
 #checked
 ?ggplot
 
-plot1 <- ggplot(mpg, aes(x = cty, y = hwy)) + 
+Viz1 <- ggplot(mpg, aes(x = cty, y = hwy)) + 
   geom_point() + 
   geom_smooth(method = "lm")
 
